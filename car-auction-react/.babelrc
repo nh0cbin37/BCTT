@@ -1,0 +1,15 @@
+{
+    "assumptions": {
+    "noDocumentAll": true
+  },
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": "> 0.25%, not dead" // Hoặc trình duyệt cụ thể bạn muốn hỗ trợ
+        }
+      ],
+      "@babel/preset-react" // Cần thiết nếu bạn sử dụng JSX
+    ],
+    "ignore": ["node_modules"]
+  }

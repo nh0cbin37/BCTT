@@ -1,0 +1,9 @@
+.form-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .form-container.open {
+    max-height: 600px; /* Điều chỉnh giá trị này cho phù hợp */
+  }
